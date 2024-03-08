@@ -2,7 +2,6 @@ package com.KafkatopicEvent.orderservice.kafka;
 
 import com.KafkatopicEvent.basedomains.dto.OrderEvent;
 import org.apache.kafka.clients.admin.NewTopic;
-import org.apache.kafka.common.protocol.types.Field;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.core.KafkaTemplate;
